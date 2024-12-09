@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Fundamentos de la psicopedagogía',
   },
   menuPrincipal: {
     menu: [
@@ -31,83 +31,34 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Fundamentos de la psicopedagogía',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Desarrollo cognitivo y socioemocional',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Roles en la teoría cognitiva',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'La enseñanza y evaluación cognitiva',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Desarrollo socioemocional',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,22 +66,10 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo:
+          'Teorías del aprendizaje y su relación con el desarrollo psicopedagógico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -170,109 +109,151 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Alanís, P., Gutiérrez, D. (2011). Los estilos de aprendizaje en estudiantes de telesecundaria.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'file:///C:/Users/smd/Downloads/DialnetLosEstilosDeAprendizajeEnEstudiantesDeTelesecundar-4034711.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Caro, E., Monroy, M. (2008). Relación de los Ambientes Hipertextuales de Aprendizaje Gráfico y Sonoro, con los Estilos de Aprendizaje Verbal y Visual.',
+      link: 'http://www.redalyc.org/html/1331/133115027013/index.html',
+    },
+    {
+      referencia:
+        'Chávez Rodríguez, J., Deler Ferrera, G., Permuy Gonzalez, L. D., & Suarez Lorenzo, A. (2007). Principales corrientes y tendencias a inicios del siglo XXI de la pedagogía y la didáctica. INSTITUTO CENTRAL DE CIENCIAS PEDAGÓGICAS.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://books.google.com.co/books?id=-xcaEAAAQBAJ&printsec=frontcover&hl=es',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Cristina Ricci. (2021). Investigación psicopedagógica e investigación en Psicopedagogía: diferenciación necesaria desde una perspectiva epocal, de la complejidad, disciplinar, profesional, inter y transdisciplinar. Revista Perspectivas metodológicas, 21, 1-22.',
+      link: 'https://revistas.unla.edu.ar/epistemologia/article/view/3442/1726',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Guilar, M. E. (2009). Las ideas de Bruner: De la revolución cognitiva a la revolución cultural. Educere, 13(44), 235-241.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-49102009000100028',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Hilda Fingermann. (2015). ¿Qué son los enfoques pedagógicos? La Guía.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://educacion.laguia2000.com/ensenanza/que-son-los-enfoques-pedagogicos',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Juan Antonio López, A. F. (2007). La sociedad y economía del conocimiento: el reto para la no exclusión de los adultos. Granada, España.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://revistaseug.ugr.es/index.php/publicaciones/article/view/2275/2394',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ortiz, A. (2013). Modelos pedagógicos y teorías del aprendizaje. Magdalena, Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.researchgate.net/publication/315835198_Modelos_Pedagogicos_y_Teorias_del_Aprendizaje',
+    },
+    {
+      referencia:
+        'Penã Rodriguez, F., & Acevedo Zapata, S. (2011). El campo de la psicopedagogía: Discusiones, procesos de formación, identidad y prácticas. Revista Brasileira de Orientação Profissional, 12(1), 127-132.',
+      link: 'https://www.redalyc.org/pdf/2030/203018660014.pdf',
+    },
+    {
+      referencia:
+        'Rafael Bisquerra. (1996). Orígenes y desarrollo de la orientación psicopedagógica. Narcea S.A de Ediciones.',
+      link:
+        'http://www.uvirtual.net/sites/default/files/2016-11/bXVdos-Unidad01_LC_01_BISQUERRA.pdf',
+    },
+    {
+      referencia:
+        'Rafel Bisquerra. (2014). Los orígenes de la psicopedagogía: El concepto y el término. Revista Española de Orientación y Psicopedagogía, 13, 17-29.',
+      link: 'https://doi.org/10.5944/reop.vol.13.num.1.2002.11583',
+    },
+    {
+      referencia:
+        'Seijo, C. B. (2012). El cerebro triuno y la inteligencia ética: matriz fundamental de la inteligencia multifocal. Revista Praxis, 8, 147-165.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=5907276',
+    },
+    {
+      referencia:
+        'Tutaya, S. G. (2019). Funciones de la psicopedagogía: como una disciplina importante para el aprendizaje. Chincha, Perú.',
+      link:
+        'https://repositorio.untumbes.edu.pe/handle/20.500.12874/1431?show=full',
+    },
+    {
+      referencia:
+        'Vargas Silva, F. A. (2019). Tendencias, corrientes y modelos pedagógicos: relaciones, semejanzas y diferencias. (Una mirada desde Occidente) (1 ed.). Tolima, Sello Editorial Universidad del Tolima.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/228354?page=136',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Cognitivo',
+      significado: 'Perteneciente o relativo al conocimiento',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Didáctica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Propio, adecuado o con buenas condiciones para enseñar o instruir',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Diversidad',
+      significado: 'Variedad, desemejanza, diferencia',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Emociones',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Alteraciones del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'Estadios',
+      significado: 'Período o fase de un proceso',
     },
     {
-      termino: 'Diseña',
+      termino: 'Inteligencia',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Capacidad de entender o comprender. Capacidad de resolver problemas',
     },
     {
-      termino: 'DIseño',
+      termino: 'Interdisciplinariedad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Dicho de un estudio o de otra actividad: que se realiza con la cooperación de varias disciplinas',
     },
     {
-      termino: 'Tipología',
+      termino: 'Memoria',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Facultad psíquica por medio de la cual se retiene y recuerda el pasado',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Modelo',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Arquetipo o punto de referencia para imitarlo o reproducirlo',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Pensamiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de ideas propias de una persona, de una colectividad o de una época',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Psicología',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Ciencia o estudio de la mente y de la conducta en personas o animales',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Psicopedagogía',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Rama de la psicología que se ocupa de los fenómenos de orden psicológico para llegar a una formulación más adecuada de los métodos didácticos y pedagógicos',
+    },
+    {
+      termino: 'Socioemocional',
+      significado:
+        'Conductas aprendidas que llevamos a cabo cuando interactuamos con otras personas y que nos son útiles para expresar nuestros sentimientos, actitudes, opiniones y defender nuestros derechos',
+    },
+    {
+      termino: 'Teoría',
+      significado:
+        'Conocimiento especulativo considerado con independencia de toda aplicación',
     },
   ],
   complementario: [

@@ -1,162 +1,111 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'1. Fundamentos de la psicopedagogía'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    #t_1_1.titulo-segundo
-      div.d-flex
-        span.me-3 1.1  
-        h2 Título de segundo
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        p Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
-      .col-md-6.col-lg-5
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure.mt-4.mt-lg-0
-          img(src='@/assets/componentes/banner-img-1.png', alt='Texto que describa la imagen')
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2  Acordeón
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        AcordionA(tipo="b")
-          .row(titulo="Titulo item 1")
-            .col
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 La psicopedagogía ha evolucionado significativamente, consolidándose como una disciplina esencial en el ámbito educativo. Su conceptualización actual la vincula con temas como la inclusión y el desarrollo integral, aunque su reconocimiento entre el público general aún es limitado. Esta disciplina ha ganado relevancia entre los profesionales de la educación, expandiendo su campo de acción hacia enfoques académicos, investigativos y legales.
+        p.mb-4 Desde sus inicios, la función de acompañamiento pedagógico ha estado presente en las prácticas educativas. Según Bisquerra (2002), este proceso siempre ha existido, ya que los seres humanos desarrollan habilidades mediante la ayuda mutua. Incluso en la antigua Grecia, filósofos reflexionaron  sobre técnicas que posteriormente se integraron a la psicopedagogía.
+        span La evolución histórica de la psicopedagogía es
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
 
-          div(titulo="Titulo item 2")
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .col-md-6.col-lg-5.col-xl-4.mx-xl-auto
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure
-          img(src='@/assets/componentes/banner-img-2.png', alt='Texto que describa la imagen')
-    #t_1_3.titulo-segundo.color-secundario.pb-5
-      h2 1.3  Slider
-    .row.position-relative.mb-5
-      img.bg-img-1(src='../../assets/componentes/background-test.svg', alt='Texto que describa la imagen')
-      SlyderA(tipo="b").bg-white
-        .row.p-4.p-md-5
-          .col-md-6.col-lg-7.mb-4.mb-md-0
-            p.text-bold Coercibilidad
-            p El derecho puede imponerse por la fuerza si es necesario. Cuando una persona incumple una norma jurídica, puede ser sancionada mediante multas, penas de prisión o la confiscación de bienes. Esta coercibilidad distingue al derecho de otros sistemas normativos que no cuentan con mecanismos de imposición obligatoria.
-        
-          .col-md-6.col-lg-5
-            figure
-              img(src='@/assets/componentes/banner-img-3.png', alt='Texto que describa la imagen')
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-    #t_1_4.titulo-segundo.color-secundario.pt-5
-      h2 1.4  Pestañas
-    .row.mb-5
-      TabsC.color-primario
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Jerarquía normativa")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Sentido amplio de la norma")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-    #t_1_5.titulo-segundo.color-secundario.pt-5
-      h2 1.5  Infografia interactiva
-      
-    .row.mb-5.justify-content-center.img-infografica.p-md-5
-      .col-12.col-md-9
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/componentes/test-img-infogr.svg', alt='Texto que describa la imagen')
+    .row.mb-5.justify-content-center 
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Siglo XIX
+          p.px-1.text-small.mb-0.d-flex.text-center La orientación escolar evolucionó hacia una psicopedagogía científica, apoyada en fundamentos psicológicos. 
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Child Study Movement
+          p.px-1.text-small.mb-0.d-flex.text-center Enfoque en la diversidad y la individualidad de los niños en su integración escolar y familiar.
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-6.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Psicología evolutiva
+          p.px-1.text-small.mb-0.d-flex.text-center Transformó el trabajo con niños al conectar la psicología con la academia y la educación.
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-7.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Interdisciplinariedad
+          p.px-1.text-small.mb-0.d-flex.text-center Integración con biología, positivismo y psicología experimental, definiéndose como complemento de las ciencias de la educación.
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 Integración con biología, positivismo y psicología experimental, definiéndose como complemento de las ciencias de la educación.
+        span El rol del psicopedagogo también evolucionó. Conceptos como médico-pedagógico, psicoeducativo y maestro-psicólogo reflejan esta transformación, influenciada por contextos culturales y lingüísticos diversos.
+    p.mb-4 Los conceptos principales de la psicopedagogía son: 
+    .row.mb-5.justify-content-center 
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-9.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Definición práctica
+          p.px-1.text-small.mb-0.d-flex.text-center Considera la psicopedagogía como un acompañamiento que depende de fundamentos teóricos de otras disciplinas.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-10.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Definición científica
+          p.px-1.text-small.mb-0.d-flex.text-center La presenta como una disciplina con su propia epistemología, integrando psicología y pedagogía.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
+        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-11.svg', style="width: 80px")
+          p.text-bold.mb-4.text-center Definición pragmática
+          p.px-1.text-small.mb-0.d-flex.text-center "Rama de la psicología que formula métodos didácticos adecuados" (RAE, 2014).
 
-          .tarjeta.color-acento-botones.p-3(x="91%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .row.mb-4
+      .col-10-mx-auto.bg-rosa.p-4(data-aos="fade-up")
+        span El concepto de psicopedagogía varía según los contextos de aplicación, lo que dificulta una definición unificada. Algunos autores, como Peña y Acevedo (2011), la consideran una ciencia de la educación enfocada en acompañar a estudiantes con barreras de aprendizaje, mientras que otros enfatizan su carácter práctico.
     
-    #t_1_6.titulo-segundo
-      div.d-flex
-        span.me-3 1.6  
-        h2 Linea de tiempo D
+    .row.mb-4
+      .col-10.col-xl-7.mx-auto(data-aos="fade-right")
+        .bg-verde.p-4
+          p.mb-4 Las funciones del psicopedagogo son:
+          div.d-flex.mb-4
+            img.mt-2.mb-auto.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Identificación de barreras </strong> <br> Detectar factores ambientales y cognitivos que afectan el aprendizaje.
+          div.d-flex.mb-4
+            img.mt-2.mb-auto.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong>Diseño de estrategias </strong> <br> Crear actividades pedagógicas adaptadas a superar dichas barreras.
+          div.d-flex
+            img.mt-2.mb-auto.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 <strong> Acompañamiento </strong> <br> Intervenir directamente en el proceso de aprendizaje de los estudiantes, especialmente aquellos con dificultades.
 
-    LineaTiempoD.color-secundario.mb-5
-      p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="3" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
     
-    #t_1_7.titulo-segundo
-      div.d-flex
-        span.me-3 1.7
-        h2 Tarjeta de audio
-    
-      TarjetaAudio.color-primario.bg-white.mb-5(
-        texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
-        tiempo
-        :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 La psicopedagogía resalta la importancia de comprender y superar las barreras de aprendizaje mediante estrategias que promuevan el desarrollo integral de los estudiantes. Esta perspectiva posiciona a la disciplina como un puente entre el conocimiento teórico y la práctica pedagógica.
+        span La psicopedagogía, con su evolución histórica y sus diversas definiciones, resalta la importancia de un enfoque interdisciplinario y práctico. Mediante el diseño de estrategias personalizadas y el acompañamiento de estudiantes, se posiciona como una herramienta esencial para el desarrollo educativo e inclusivo en contextos modernos.
 
     .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
             p.text-small
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/836vbYpV8ts?si=a2DqO1kQVJ6vSJy_") FILO UBA. (23 may 2017). I Jornada de educación y psicopedagogía. Dra. Silvia Schemenson .
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=iGsaoLm5FiA") Colegio Howard Gardner. (28 mayo 2021). Inteligencias Múltiples. 
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/219654 ") Cobos Cedillo, A. (2022). Manual de orientación educativa: teoría y práctica de la psicopedagogía: (1 ed.). Narcea Ediciones. 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}") 
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/204546 ") Filidoro, N. Bertoldi, S. & Fuertes, C. (2021). Psicopedagogía: revisión de conceptos y problemas: la construcción de conocimientos en la especificidad del campo profesional: ( ed.). Editorial Biblos.  
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
 </template>
 
 <script>
