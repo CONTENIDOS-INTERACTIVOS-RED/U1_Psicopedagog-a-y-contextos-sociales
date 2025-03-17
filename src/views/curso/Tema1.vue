@@ -6,7 +6,7 @@
       .col-12.col-xl-7(data-aos="fade-right")
         p.mb-4 La psicopedagogía ha evolucionado significativamente, consolidándose como una disciplina esencial en el ámbito educativo. Su conceptualización actual la vincula con temas como la inclusión y el desarrollo integral, aunque su reconocimiento entre el público general aún es limitado. Esta disciplina ha ganado relevancia entre los profesionales de la educación, expandiendo su campo de acción hacia enfoques académicos, investigativos y legales.
         p.mb-4 Desde sus inicios, la función de acompañamiento pedagógico ha estado presente en las prácticas educativas. Según Bisquerra (2002), este proceso siempre ha existido, ya que los seres humanos desarrollan habilidades mediante la ayuda mutua. Incluso en la antigua Grecia, filósofos reflexionaron  sobre técnicas que posteriormente se integraron a la psicopedagogía.
-        span La evolución histórica de la psicopedagogía es
+        span La evolución histórica de la psicopedagogía es:
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
 
@@ -19,7 +19,7 @@
       .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Child Study Movement
+          p.text-bold.mb-4.text-center <i>Child Study Movement</i>
           p.px-1.text-small.mb-0.d-flex.text-center Enfoque en la diversidad y la individualidad de los niños en su integración escolar y familiar.
       .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
@@ -36,7 +36,6 @@
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7(data-aos="fade-left")
-        p.mb-4 Integración con biología, positivismo y psicología experimental, definiéndose como complemento de las ciencias de la educación.
         span El rol del psicopedagogo también evolucionó. Conceptos como médico-pedagógico, psicoeducativo y maestro-psicólogo reflejan esta transformación, influenciada por contextos culturales y lingüísticos diversos.
     p.mb-4 Los conceptos principales de la psicopedagogía son: 
     .row.mb-5.justify-content-center 

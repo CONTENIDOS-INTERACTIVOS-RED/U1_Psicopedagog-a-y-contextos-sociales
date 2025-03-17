@@ -71,8 +71,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Conexión entre desarrollo cognitivo y socioemocional: invitación al documento
-          p.mb-5 ¿Cómo se vinculan las emociones con el aprendizaje? En el documento Conexión entre Desarrollo Cognitivo y Socioemocional , se explora cómo las competencias socioemocionales, como la regulación emocional y la empatía, influyen en la capacidad de aprender. Además, se analizan las implicaciones educativas de Bruner, incluyendo el aprendizaje por descubrimiento y el currículo en espiral, como estrategias para integrar el desarrollo cognitivo y socioemocional en el aula. Se invita a leer el documento para descubrir cómo aplicar estos principios en contextos educativos actuales.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-5 ¿Cómo se vinculan las emociones con el aprendizaje? En el documento <i>Conexión entre Desarrollo Cognitivo y Socioemocional</i>, se explora cómo las competencias socioemocionales, como la regulación emocional y la empatía, influyen en la capacidad de aprender. Además, se analizan las implicaciones educativas de Bruner, incluyendo el aprendizaje por descubrimiento y el currículo en espiral, como estrategias para integrar el desarrollo cognitivo y socioemocional en el aula. Se invita a leer el documento para descubrir cómo aplicar estos principios en contextos educativos actuales.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Conexión entre desarrollo cognitivo y socioemocional.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Conexión entre Desarrollo Cognitivo y Socioemocional
              
@@ -182,7 +182,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Roles de la teoría cognitiva 
           p.mb-5 Los roles de la teoría cognitiva resaltan la importancia de comprender cómo las emociones influyen directamente en el aprendizaje, ofreciendo una perspectiva integral que considera tanto el papel del docente como el del estudiante. Este enfoque promueve la integración del desarrollo cognitivo y socioemocional, subrayando la necesidad de diseñar experiencias educativas que estimulen el pensamiento crítico, la empatía y la autorregulación emocional. Para explorar en profundidad cómo estas dinámicas pueden transformar los procesos educativos y potenciar el aprendizaje significativo, lo invitamos a consultar el documento Roles de la teoría cognitiva
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Roles en la teoría cognitiva.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Roles de la teoría cognitiva
              
@@ -206,7 +206,7 @@
         tbody
           tr
           tr
-            td Propone procesos mediante los cuales simplifiquemos la interacción con la realidad a partir de la agrupación de objetos, sucesos o conceptos 
+            td Propone procesos mediante los cuales simplifiquemos la interacción con la realidad a partir de la agrupación de objetos, sucesos o conceptos.
             td El alumno deberá desarrollar una reflexión crítica de modo que descubra, aprenda, cosas relativas al lenguaje, la fabricación y uso de instrumentos, la organización social y la visión del mundo que tenían distintos grupos culturales.
           tr
             td Aporta la metáfora del andamiaje, que propone que, a menor competencia, mayor será la ayuda que le proporcionará el maestro. A medida que el estudiante va siendo más competente el monitor retira su ayuda y concede más responsabilidad y control.
@@ -215,7 +215,7 @@
             td El aprendizaje es un proceso activo, de asociación, construcción y representación.
             td El interés se centra en los procesos de aprendizaje, no en los resultados obtenidos, ya que lo que se pretende es comprender el funcionamiento mental del alumno ante la tarea a través del conocimiento de sus representaciones y de las estrategias que utiliza.
           tr
-            td La educación debe inculcar habilidades y fomentar la representación de la propia experiencia y del conocimiento buscando el equilibrio entre la riqueza de lo particular y la economía de lo general
+            td La educación debe inculcar habilidades y fomentar la representación de la propia experiencia y del conocimiento buscando el equilibrio entre la riqueza de lo particular y la economía de lo general.
             td Los datos recogidos son cualitativos: se utilizan cuestionarios, observación del comportamiento, observación de sus reflexiones y de las interacciones…
           tr
             td La información o contenidos de aprendizaje se deben presentar de una forma adecuada a la estructura cognitiva (el modo de representación) del aprendiz.
@@ -258,7 +258,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto Aportes de Erik Erikson al desarrollo socioemocional
           p.mb-5 El concepto de paz puede parecer sencillo, pero encierra una complejidad profunda que ha sido objeto de estudio durante siglos. En el PDF Concepto de paz, exploramos las ideas de Johan Galtung (1996), quien distingue entre la paz negativa y la paz positiva, dos enfoques que van más allá de la mera ausencia de violencia. A través de ejemplos concretos, veremos cómo estas definiciones nos ayudan a comprender y mejorar las dinámicas cotidianas en nuestras comunidades y lugares de trabajo, y descubriremos por qué la construcción de una paz genuina exige mucho más que evitar conflictos abiertos.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Aportes de Erik Erikson al desarrollo socioemocional.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Nombre del documento
              

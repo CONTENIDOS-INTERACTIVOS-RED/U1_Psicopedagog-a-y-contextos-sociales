@@ -190,70 +190,70 @@ export default {
   glosario: [
     {
       termino: 'Cognitivo',
-      significado: 'Perteneciente o relativo al conocimiento',
+      significado: 'Perteneciente o relativo al conocimiento.',
     },
     {
       termino: 'Didáctica',
       significado:
-        'Propio, adecuado o con buenas condiciones para enseñar o instruir',
+        'Propio, adecuado o con buenas condiciones para enseñar o instruir.',
     },
     {
       termino: 'Diversidad',
-      significado: 'Variedad, desemejanza, diferencia',
+      significado: 'Variedad, desemejanza, diferencia.',
     },
     {
       termino: 'Emociones',
       significado:
-        'Alteraciones del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática',
+        'Alteraciones del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática.',
     },
     {
       termino: 'Estadios',
-      significado: 'Período o fase de un proceso',
+      significado: 'Período o fase de un proceso.',
     },
     {
       termino: 'Inteligencia',
       significado:
-        'Capacidad de entender o comprender. Capacidad de resolver problemas',
+        'Capacidad de entender o comprender. Capacidad de resolver problemas.',
     },
     {
       termino: 'Interdisciplinariedad',
       significado:
-        'Dicho de un estudio o de otra actividad: que se realiza con la cooperación de varias disciplinas',
+        'Dicho de un estudio o de otra actividad: que se realiza con la cooperación de varias disciplinas.',
     },
     {
       termino: 'Memoria',
       significado:
-        'Facultad psíquica por medio de la cual se retiene y recuerda el pasado',
+        'Facultad psíquica por medio de la cual se retiene y recuerda el pasado.',
     },
     {
       termino: 'Modelo',
       significado:
-        'Arquetipo o punto de referencia para imitarlo o reproducirlo',
+        'Arquetipo o punto de referencia para imitarlo o reproducirlo.',
     },
     {
       termino: 'Pensamiento',
       significado:
-        'Conjunto de ideas propias de una persona, de una colectividad o de una época',
+        'Conjunto de ideas propias de una persona, de una colectividad o de una época.',
     },
     {
       termino: 'Psicología',
       significado:
-        'Ciencia o estudio de la mente y de la conducta en personas o animales',
+        'Ciencia o estudio de la mente y de la conducta en personas o animales.',
     },
     {
       termino: 'Psicopedagogía',
       significado:
-        'Rama de la psicología que se ocupa de los fenómenos de orden psicológico para llegar a una formulación más adecuada de los métodos didácticos y pedagógicos',
+        'Rama de la psicología que se ocupa de los fenómenos de orden psicológico para llegar a una formulación más adecuada de los métodos didácticos y pedagógicos.',
     },
     {
       termino: 'Socioemocional',
       significado:
-        'Conductas aprendidas que llevamos a cabo cuando interactuamos con otras personas y que nos son útiles para expresar nuestros sentimientos, actitudes, opiniones y defender nuestros derechos',
+        'Conductas aprendidas que llevamos a cabo cuando interactuamos con otras personas y que nos son útiles para expresar nuestros sentimientos, actitudes, opiniones y defender nuestros derechos.',
     },
     {
       termino: 'Teoría',
       significado:
-        'Conocimiento especulativo considerado con independencia de toda aplicación',
+        'Conocimiento especulativo considerado con independencia de toda aplicación.',
     },
   ],
   complementario: [

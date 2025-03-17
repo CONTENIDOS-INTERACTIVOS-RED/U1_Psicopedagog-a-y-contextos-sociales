@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'3. Teorías del aprendizaje y su relación con el desarrollo psicopedagógico'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     p.mb-4 Los modelos pedagógicos no solo reflejan las teorías y prácticas educativas, sino que también evidencian cómo estas se adaptan a las necesidades y características de los estudiantes en distintos contextos. La psicopedagogía, al centrarse en el aprendizaje individual y colectivo, encuentra afinidades y contrastes con los diversos modelos pedagógicos. En la siguiente tabla se presentan las principales características de los modelos pedagógicos y su relación con los enfoques psicopedagógicos.
@@ -65,6 +65,12 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
+
+
 </template>
 
 <script>
@@ -74,6 +80,145 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Psicopedagogía - Unidad 1',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'Si un psicopedagogo se encuentra con un estudiante que presenta barreras en el aprendizaje, ¿cuál sería su enfoque principal según el texto?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Enfocarse únicamente en la evaluación psicológica del estudiante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Adaptar el currículo y crear estrategias pedagógicas para superar las barreras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Derivar al estudiante a un psiquiatra sin intervención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ignorar las barreras y seguir con el currículo estándar.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué características describen el espectro de acción de la psicopedagogía según el texto?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Abarca únicamente el ámbito clínico y terapéutico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Se centra en la identificación y superación de barreras de aprendizaje mediante estrategias adaptativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Es una disciplina científica con una epistemología completamente definida y delimitada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Integra elementos psiquiátricos en su intervención, para generar respuestas adaptativas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cómo podría un psicopedagogo utilizar la historia de la psicopedagogía en su práctica?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Para justificar la falta de intervención en el aula.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para entender las razones de su importancia en el sistema educativo actual.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para centrarse únicamente en la teoría sin aplicación práctica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para evitar la colaboración con otras disciplinas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Quién es considerado uno de los máximos exponentes de la Teoría Cognitiva?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Jerome Bruner', esCorrecta: false },
+            { id: 'b', texto: 'David Ausubel', esCorrecta: false },
+            { id: 'c', texto: 'Jean Piaget', esCorrecta: true },
+            { id: 'd', texto: 'Howard Gardner', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Según la Teoría Cognitiva, ¿cuál de los siguientes procesos es fundamental para el aprendizaje?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Reproducción memorística', esCorrecta: false },
+            { id: 'b', texto: 'Asimilación y acomodación', esCorrecta: true },
+            { id: 'c', texto: 'Estímulos estandarizados', esCorrecta: false },
+            { id: 'd', texto: 'Respuestas automáticas', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
